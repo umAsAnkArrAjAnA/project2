@@ -1,0 +1,126 @@
+.parent{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.leftchild{
+  border: 2px solid black;
+  margin: 1%;
+  padding: 1%;
+  width:35%;
+  font-size: 20px;
+}
+a{
+ color: purple;
+}
+h1,p{
+  color: black;
+}
+.leftchild img{
+width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20%;
+border: 2px solid black;
+}
+.rightchild{
+  border: 2px solid black;
+  width: 60%;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20px;
+}
+table{
+  width:100%;
+}
+@media only screen and (min-width:0px) and (max-width:480px) {
+  .parent{
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  .leftchild{
+    border: 2px solid black;
+    margin: 1%;
+    padding: 1%;
+    width:95%;
+    font-size: 20px;
+    background-color: #EFDAEC;
+  }
+  a{
+   color: purple;
+  }
+  h1,p{
+    color: black;
+  }
+  table1{
+    overflow-x: auto;
+  }
+  .leftchild img{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  border: 2px solid black;
+  }
+  .rightchild{
+    border: 2px solid black;
+    width: 95%;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    background-color: #EFDAEC;
+  }
+  table{
+    width:100%;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:769px){
+  .parent{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  .leftchild{
+    border: 2px solid black;
+    margin: 1%;
+    padding: 1%;
+    width:95%;
+    font-size: 20px;
+    background-color: #C6DAC5;
+  }
+  a{
+   color: purple;
+  }
+  h1,p{
+    color: black;
+  }
+  .leftchild img{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  border: 2px solid black;
+  }
+  .rightchild{
+    border: 2px solid black;
+    width: 95%;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    background-color: #C6DAC5;
+  }
+  table{
+    width:100%;
+  }
+}

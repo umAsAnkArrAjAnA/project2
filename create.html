@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      Resume Builder
+    </header>
+  <article>
+    <form>
+     <section>
+       <h2>Carrer Objective</h2>
+       <select id="career">
+         <option select"Selected"disabled>Select your Career Objective</option>
+         <option>To work for an organization which provides me the opportunity to improve my skills</option>
+           <option>To know something new and enhance my skills in a dynamic and stable workplace.</option>
+           <option>To work in the company with the positive atmosphere which will inspire me to enhance my skills.</option>
+           <option>To gain new experience and to utilize my interpersonal skills to achieve these goals.</option>
+       </select>
+     </section>
+     <div class="parent">
+       <section>
+         <h2>Personal Information</h2>
+         <input type="text" id="name" placeholder="Name"required><br>
+         <input type="email" id="email"placeholder="Email"required><br>
+      </section>
+       <section>
+         <h2>Graduation Details</h2>
+         <select id="group1">
+           <option select"Selected"disabled>Select your Graduation type</option>
+           <option>B.Tech</option>
+           <option>B.E</option>
+           <option>B.Sc</option>
+         </select><br>
+         <select id="branch1">
+           <option select"Selected"disabled>Select your Branch</option>
+           <option>CSE</option>
+           <option>IT</option>
+           <option>ECE</option>
+         </select>
+         <br><input type="text" id="college1" placeholder="College Name"required><br>
+         <input type="number" id="marks1" placeholder="Percentage"required>
+       </section>
+     </div>
+     <div class="parent">
+        <section>
+          <h2>Intermediate</h2>
+        <select id="group2">
+          <option select"Selected"disabled>Select your degree</option>
+          <option>Intermediate</option>
+          <option>Diploma</option>
+        </select><br>
+        <select id="branch2">
+          <option select"Selected"disabled>Select your Branch</option>
+          <option>M.P.C</option>
+          <option>Bi.P.C</option>
+          <option>C.E.C</option>
+          <option>H.E.C</option>
+          <option>M.E.C</option>
+        </select>
+        <br><input type="text" id="college2" placeholder="College Name"required><br>
+        <input type="number" id="marks2" placeholder="Percentage"required>
+      </section>
+      <section>
+          <h2>X standard</h2>
+        <select id="group3">
+          <option select"Selected"disabled>Select your Board</option>
+          <option>SSC</option>
+          <option>CBSE</option>
+        </select><br>
+      <input type="text" id="college3" placeholder="School Name"required><br>
+        <input type="number" id="marks3" placeholder="Percentage"required>
+      </section>
+     </div>
+     <section>
+       <h2>Technical Skills</h2>
+       <p>Note*:Skill must be , seperated</p>
+       <input type="text" id="tech" placeholder="Technical details"required>
+     </section>
+    </form>
+  </article>
+    <div style="text-align:center" class="parent">
+      <button type="button" onclick="addData()">Submit</button>
+      <script type="text/javascript" src="main.js">
+
+      </script>
+    </div>
+  </body>
+</html>
